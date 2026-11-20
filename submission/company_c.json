@@ -1,0 +1,26 @@
+{
+  "company": "C",
+  "reporting_currency": "USD",
+  "invoice": {
+    "file": "invoice_lines.csv",
+    "record_prefix": "",
+    "id": "line_id",
+    "date": "invoice_date",
+    "amount": "line_amount_usd",
+    "currency": "currency",
+    "currency_rate": "",
+    "supplier_id": "",
+    "supplier": "supplier_name",
+    "description": "line_description",
+    "material_id": "product_service_code",
+    "quantity": "quantity",
+    "status": "status",
+    "amount_is_gross": false,
+    "gl_account_description": "gl_account_description",
+    "document_type": "submission_type"
+  },
+  "taxonomy": {
+    "file": "category_tree_C.csv",
+    "columns": ["level_1", "level_2", "level_3", "level_4"]
+  }
+}
