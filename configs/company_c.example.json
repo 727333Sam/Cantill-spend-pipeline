@@ -1,0 +1,32 @@
+{
+  "company": "C",
+  "reporting_currency": "USD",
+  "invoice": {
+    "file": "invoice_lines.csv",
+    "record_prefix": "",
+    "id": "line_id",
+    "date": "invoice_date",
+    "amount": "line_amount",
+    "currency": "currency",
+    "currency_rate": "currency_rate",
+    "supplier_id": "vendor_id",
+    "supplier": "supplier_name",
+    "description": "line_description",
+    "material_id": "material_number",
+    "quantity": "quantity",
+    "status": "status",
+    "amount_is_gross": false,
+    "gl_account_description": "gl_account_description",
+    "document_type": "document_type"
+  },
+  "fx": {
+    "file": "fx_rates_usd.csv",
+    "currency": "currency",
+    "month": "month",
+    "units_per_usd": "units_per_usd"
+  },
+  "taxonomy": {
+    "file": "taxonomy.csv",
+    "columns": ["l1", "l2", "l3", "l4"]
+  }
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+cantill-pipeline = cantill_pipeline.cli:main

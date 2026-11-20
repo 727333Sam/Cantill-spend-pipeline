@@ -1,0 +1,50 @@
+{
+  "company": "A",
+  "reporting_currency": "ZAR",
+  "erp": {
+    "file": "company_A/erp_goods_receipts.csv",
+    "record_prefix": "ERP",
+    "id": "line_id",
+    "date": "posting_date",
+    "amount": "value_zar",
+    "currency": "document_currency",
+    "supplier": "supplier_name",
+    "supplier_id": "vendor_id",
+    "description": "material_short_text",
+    "service_description": "service_short_text",
+    "quantity": "quantity",
+    "po_number": "po_number",
+    "po_item": "po_item",
+    "status": null,
+    "amount_is_gross": false
+  },
+  "tool": {
+    "file": "company_A/invoice_tool_export.csv",
+    "record_prefix": "TOOL",
+    "id": "tool_record_id",
+    "date": "invoice_date",
+    "amount": "gross_amount",
+    "currency": "currency",
+    "supplier": "supplier_name_as_captured",
+    "description": "line_text",
+    "quantity": "quantity",
+    "po_number": "po_reference",
+    "invoice_number": "invoice_number",
+    "status": "status",
+    "vat_rate": "vat_rate",
+    "default_vat_rate": 0.15,
+    "amount_is_gross": true
+  },
+  "labels": {
+    "file": "company_A/labels_A.csv",
+    "id": "record_id",
+    "erp_prefix": "ERP:",
+    "supplier_key": "supplier_key",
+    "item_key": "item_key",
+    "category_columns": ["category_l1", "category_l2", "category_l3"]
+  },
+  "taxonomy": {
+    "file": "company_A/taxonomy_A.csv",
+    "columns": ["category_l1", "category_l2", "category_l3"]
+  }
+}
